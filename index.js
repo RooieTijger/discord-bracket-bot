@@ -1,4 +1,4 @@
-const token = process.env.DISCORD_TOKEN;
+
 const Discord = require('discord.js');
 const Bracket = require('./bracket.js');
 
@@ -52,4 +52,4 @@ client.on('ready', () => {
   console.log('Your bot is now connected');
 });
 
-client.login(token);
+bot.login(process.env.token)
